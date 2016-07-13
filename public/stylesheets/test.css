@@ -1,0 +1,285 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	outline: 0;
+	-webkit-touch-callout: none;	
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	background-color: #000;
+	/*-webkit-transform: translateZ(0);*/
+	-webkit-backface-visibility: hidden;
+}
+
+*:focus { outline:none; }
+
+html, body {
+	overflow:hidden;
+	color: yellow;
+}
+
+.hidden {
+	display: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.background {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 0px;
+	height: 0px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center top;
+	text-align: center;
+	z-index: 2;
+}
+
+.bg_en_0,
+.bg_fr_0 {
+	background-image: url('../images/avengers/common/0_bg.jpg');
+}
+
+.bg_en_1_0 {
+	background-image: url('../images/avengers/en/1_0_bg.jpg');
+}
+
+.bg_fr_1_0 {
+	background-image: url('../images/avengers/fr/1_0_bg.jpg');
+}
+
+.bg_en_1_1 {
+	background-image: url('../images/avengers/en/1_1_bg.jpg');
+}
+
+.bg_fr_1_1 {
+	background-image: url('../images/avengers/fr/1_1_bg.jpg');
+}
+
+.bg_en_1_2 {
+	background-image: url('../images/avengers/en/1_2_bg.jpg');
+}
+
+.bg_fr_1_2 {
+	background-image: url('../images/avengers/fr/1_2_bg.jpg');
+}
+
+.bg_en_2 {
+	background-image: url('../images/avengers/en/2_bg.jpg');
+}
+
+.bg_fr_2 {
+	background-image: url('../images/avengers/fr/2_bg.jpg');
+}
+
+.bg_en_3_0 {
+	background-image: url('../images/avengers/en/3_0_bg.jpg');
+}
+
+.bg_fr_3_0 {
+	background-image: url('../images/avengers/fr/3_0_bg.jpg');
+}
+
+.bg_en_3_1 {
+	background-image: url('../images/avengers/en/3_1_bg.jpg');
+}
+
+.bg_fr_3_1 {
+	background-image: url('../images/avengers/fr/3_1_bg.jpg');
+}
+
+.bg_en_3_2 {
+	background-image: url('../images/avengers/en/3_2_bg.jpg');
+}
+
+.bg_fr_3_2 {
+	background-image: url('../images/avengers/fr/3_2_bg.jpg');
+}
+
+.bg_en_3_3 {
+	background-image: url('../images/avengers/en/3_3_bg.jpg');
+}
+
+.bg_fr_3_3 {
+	background-image: url('../images/avengers/fr/3_3_bg.jpg');
+}
+
+.bg_en_3_4 {
+	background-image: url('../images/avengers/en/3_4_bg.jpg');
+}
+
+.bg_fr_3_4 {
+	background-image: url('../images/avengers/fr/3_4_bg.jpg');
+}
+
+.bg_en_3_5 {
+	background-image: url('../images/avengers/en/3_5_bg.jpg');
+}
+
+.bg_fr_3_5 {
+	background-image: url('../images/avengers/fr/3_5_bg.jpg');
+}
+
+.bg_4 {
+	background-image: url('../images/avengers/common/4_bg.jpg');
+}
+
+.bg_4_0 {
+	background-image: url('../images/avengers/common/4_0_bg.jpg');
+}
+
+.bg_4_1 {
+	background-image: url('../images/avengers/common/4_1_bg.jpg');
+}
+
+.bg_4_2 {
+	background-image: url('../images/avengers/common/4_2_bg.jpg');
+}
+
+.bg_4_3 {
+	background-image: url('../images/avengers/common/4_3_bg.jpg');
+}
+
+.bg_4_4 {
+	background-image: url('../images/avengers/common/4_4_bg.jpg');
+}
+
+.bg_4_5 {
+	background-image: url('../images/avengers/common/4_5_bg.jpg');
+}
+
+.bg_en_5 {
+	background-image: url('../images/avengers/en/5_bg.jpg');
+}
+
+.bg_fr_5 {
+	background-image: url('../images/avengers/fr/5_bg.jpg');
+}
+
+.btn {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 0px;
+	height: 0px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left top;
+	z-index: 21;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.asset {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 0px;
+	height: 0px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left top;
+	z-index: 15;
+	background-color: transparent;
+}
+
+canvas, img {
+    image-rendering: optimizeQuality;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.join_en_off {
+	background-image: url('../images/avengers/en/0_join_off.png');
+}
+
+.join_fr_off {
+	background-image: url('../images/avengers/fr/0_join_off.png');
+}
+
+.join_en_on {
+	background-image: url('../images/avengers/en/0_join_on.png');
+}
+
+.join_fr_on {
+	background-image: url('../images/avengers/fr/0_join_on.png');
+}
+
+.lag {
+	color: yellow;
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+
+.hammer {
+	background-image: url('../images/avengers/common/4_0_hammer.png');
+}
+
+.tap_off {
+	background-image: url('../images/avengers/common/4_1_tap_off.png');
+}
+
+.tap_on {
+	background-image: url('../images/avengers/common/4_1_tap_on.png');
+}
+
+.star {
+	background-image: url('../images/avengers/common/4_1_star.png');
+}
+
+.arrow_0 {
+	background-image: url('../images/avengers/common/4_2_arrow_0.jpg');
+}
+
+.arrow_1 {
+	background-image: url('../images/avengers/common/4_2_arrow_1.jpg');
+}
+
+.arrow_2 {
+	background-image: url('../images/avengers/common/4_2_arrow_2.jpg');
+}
+
+.arrow_3 {
+	background-image: url('../images/avengers/common/4_2_arrow_3.jpg');
+}
+
+.arrow_4 {
+	background-image: url('../images/avengers/common/4_2_arrow_4.jpg');
+}
+
+.fist {
+	background-image: url('../images/avengers/common/4_3_fist.png');
+}
+
+.hand_off {
+	background-image: url('../images/avengers/common/4_4_hand_off.png');
+}
+
+.hand_on {
+	background-image: url('../images/avengers/common/4_4_hand_on.png');
+}
+
+.shield {
+	background-image: url('../images/avengers/common/4_5_shield.png');
+}
+
+.preload {
+	background-repeat: no-repeat;
+	background-position: -9999px -9999px;
+}
